@@ -35,7 +35,7 @@ export default function PastReviews() {
     rating: r.rating,
     games: typeof r.games === 'string' ? r.games.split(',').map((g: string) => g.trim()) : r.games,
     comment: r.experiences || r.comment || '',
-    wallet: r.casino_wallet || r.wallet || 'iPay9',
+    wallet: r.casino_wallet || r.wallet || 'Gucci9',
     created_at: r.created_at,
   })
 
@@ -101,7 +101,7 @@ export default function PastReviews() {
     const fetchReviews = async () => {
       try {
         const { data, error } = await supabase
-          .from('ipay9_review')
+          .from('gucci9_review')
           .select('*')
           .order('created_at', { ascending: false })
           .limit(10)
@@ -121,8 +121,8 @@ export default function PastReviews() {
 
     // ---- Supabase 实时监听新评论 ----
     const channel = supabase
-      .channel('realtime:ipay9_review')
-      .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'ipay9_review' }, (payload) => {
+      .channel('realtime:gucci9_review')
+      .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'gucci9_review' }, (payload) => {
         const newReview = formatReview(payload.new)
         setReviews((prev) => {
           const exists = prev.some((r) => r.name === newReview.name && r.comment === newReview.comment)
