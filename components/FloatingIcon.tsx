@@ -23,7 +23,7 @@ export default function FloatingIcon() {
 
       {/* Clickable Icon */}
       <a
-        href="https://ipay9aud.com"
+        href="https://www.gucci9.vip/"
         target="_blank"
         rel="noopener noreferrer"
         className="rounded-full transition-transform duration-200 hover:scale-110"

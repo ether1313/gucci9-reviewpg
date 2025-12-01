@@ -56,7 +56,7 @@ export default function PastReviews() {
 
   // ========= 虚拟统计（永远递增 + 随机 + 行为模型）=========
   const updateVirtualStats = () => {
-    const baseDate = new Date('2025-11-01T00:00:00Z')
+    const baseDate = new Date('2025-11-05T12:00:00Z')
     const now = new Date()
 
     const diffHours = Math.floor((now.getTime() - baseDate.getTime()) / 3600000)
@@ -217,7 +217,7 @@ export default function PastReviews() {
               {reviews.map((review, index) => (
                 <div key={review.id || index} className="relative min-w-[20%] max-w-[20%] flex-shrink-0">
                   {index === 0 && (
-                    <span className="absolute -top-4 right-4 z-30 bg-gradient-to-r from-indigo-400 to-blue-500 text-white text-xs font-semibold px-4 py-1.5 rounded-full shadow-md animate-pulse">
+                    <span className="absolute -top-4 right-4 z-30 bg-gradient-to-r from-[#0E4738] to-[#D4AF37] text-white text-xs font-semibold px-4 py-1.5 rounded-full shadow-md animate-pulse">
                       Latest Review
                     </span>
                   )}
@@ -336,7 +336,7 @@ const ReviewCard = ({ review, isMobile = false }: { review: Review; isMobile?: b
 
       {/* Footer */}
       <div className="flex items-center justify-between border-t border-white/20 pt-3">
-        <span className="text-xs text-white/60">Wallet</span>
+        <span className="text-xs text-white/60">Wallet:</span>
 
         <div className="flex items-center gap-1.5 sm:gap-2">
           <img src="/australia-flag.png" alt="Flag" className="w-4 h-4 sm:w-5 sm:h-5" />

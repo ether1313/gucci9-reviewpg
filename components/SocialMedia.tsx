@@ -2,19 +2,19 @@
 
 const SocialMedia = () => {
   const socialLinks = [
-    { name: 'TPA', href: 'https://t.me/tpaaustralia/', icon: '/SocialMediaIcons/ipay9-tpa.png' },
-    { name: 'Facebook', href: 'https://www.facebook.com/IPay9.Entertainment?_rdc=1&_rdr#', icon: '/SocialMediaIcons/ipay9-fb.png' },
-    { name: 'Telegram', href: 'https://t.me/IPAY9', icon: '/SocialMediaIcons/ipay9-tlg.png' },
-    { name: 'WhatsApp', href: 'https://IPAY9.wasap.my', icon: '/SocialMediaIcons/ipay9-ws.png' },
+    { name: 'TPA', href: 'https://t.me/tpaaustralia/', icon: '/SocialMediaIcons/gucci9-tpa.png' },
+    { name: 'Facebook', href: 'https://www.facebook.com/Gucci9australia/?_rdc=1&_rdr#', icon: '/SocialMediaIcons/gucci9-fb.png' },
+    { name: 'Telegram', href: 'https://t.me/gucci9australiaa', icon: '/SocialMediaIcons/gucci9-tlg.png' },
+    { name: 'WhatsApp', href: 'https://api.whatsapp.com/send?phone=601137196993&text=Hi%2C%20I%20would%20like%20to%20win%20what%20i%20like%20with%20GUCCI9', icon: '/SocialMediaIcons/gucci9-ws.png' },
   ];
 
   return (
-    <section className="py-4 sm:py-10 lg:py-16 px-4">
+    <section className="py-4 sm:py-10 lg:py-16 px-4 pb-16">
       <div className="max-w-5xl mx-auto text-center">
 
         {/* ===== Heading ===== */}
-        <h2 className="text-xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-10 text-[#ecf3ff] font-['Orbitron']">
-          Join the iPay9 Community
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-10 text-[#ecf3ff] font-['Orbitron']">
+          Join the Gucci9 Community
         </h2>
 
         {/* ===== Social Icons ===== */}
@@ -39,7 +39,7 @@ const SocialMedia = () => {
                   <img
                     src={social.icon}
                     alt={social.name}
-                    className="w-80 h-32 sm:w-72 sm:h-32 lg:w-85 lg:h-45 object-contain transition-transform duration-300 md:group-hover:scale-110"
+                    className="w-80 h-24 sm:w-72 sm:h-20 lg:w-85 lg:h-20 object-contain transition-transform duration-300 md:group-hover:scale-110"
                   />
                 </div>
                 <span className="sr-only">{social.name}</span>
@@ -50,7 +50,7 @@ const SocialMedia = () => {
 
         {/* ===== Subtext ===== */}
         <p className="text-[#ecf3ff] text-sm sm:text-base lg:text-lg px-2 font-['Orbitron'] font-light mt-6">
-          Stay connected with iPay9 Australia's most trusted casino review community
+          Stay connected with Gucci9 Australia's most trusted casino review community
         </p>
       </div>
 

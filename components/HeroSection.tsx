@@ -8,16 +8,16 @@ const PastReviews = dynamic(() => import('@/components/PastReviews'), { ssr: fal
 
 const HeroSection = () => {
   return (
-    <section className="relative pt-12 sm:pt-14 md:pt-16 pb-20 flex flex-col items-center justify-center text-center overflow-hidden px-6">
+    <section className="relative pt-12 sm:pt-14 md:pt-16 pb-6 flex flex-col items-center justify-center text-center overflow-hidden px-6">
 
       {/* 限制最大宽度 */}
       <div className="max-w-7xl mx-auto relative z-10">
         {/* 公司 Logo */}
-        <div className="relative w-48 h-24 sm:w-56 sm:h-28 mb-2 
+        <div className="relative w-48 h-24 sm:w-64 sm:h-28 mb-2 
             rounded-2xl flex items-center justify-center overflow-hidden mx-auto">
 
         <Image
-          src="/ipay9.png"
+          src="/gucci9.png"
           alt="Company Logo"
           fill
           className="object-contain opacity-90"

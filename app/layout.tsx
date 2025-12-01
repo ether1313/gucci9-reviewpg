@@ -4,9 +4,9 @@ import FloatingIcon from "../components/FloatingIcon";
 
 export const metadata: Metadata = {
   title:
-    "iPay9 Reviews Australia | Trusted Casino Wallet & Gaming Platform Feedback",
+    "Gucci9 Reviews Australia | Trusted Casino Wallet & Gaming Platform Feedback",
   description:
-    "Read authentic iPay9 reviews from Australian players. Discover how iPay9 helps users enjoy smooth, secure, and trusted online gaming experiences. Transparent feedback, trusted ratings, and real user experiences from across Australia.",
+    "Read authentic Gucci9 reviews from Australian players. Discover how Gucci9 helps users enjoy smooth, secure, and trusted online gaming experiences. Transparent feedback, trusted ratings, and real user experiences from across Australia.",
 };
 
 export default function RootLayout({
@@ -18,15 +18,16 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" type="image/png" href="/favicon.png" />
+        {/* Inter Font */}
         <link
-          href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
       </head>
 
       <body
         className="antialiased relative"
-        style={{ fontFamily: "'Orbitron', monospace" }}
+        style={{ fontFamily: "'Inter', sans-serif" }}
       >
 
         {/* VIDEO BACKGROUND */}

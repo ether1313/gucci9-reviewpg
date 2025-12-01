@@ -64,12 +64,12 @@ const Authorize = () => {
             className="max-w-xl text-[#ecf3ff] text-sm sm:text-base leading-relaxed text-center lg:text-left mt-2 lg:mt-0"
         >
             <p className="mb-3">
-            iPay9 Australia Online Casino Wallet has been officially recognized and recommended by{' '}
-            <span className="font-semibold text-blue-700">Trusted Pokies Australia</span> for its
+            Gucci9 Australia Online Casino Wallet has been officially recognized and recommended by{' '}
+            <span className="font-semibold text-[#0099ff]">Trusted Pokies Australia</span> for its
             commitment to transparency, security, and entertainment excellence.
             </p>
             <p className="text-[#ecf3ff] italic">
-            "Play smart. Play secure. Play with iPay9."
+            "Play smart. Play secure. Play with Gucci9."
             </p>
         </motion.div>
         </div>

@@ -6,14 +6,15 @@ const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 )
 
-// 禁止快取，確保即時更新
 export const revalidate = 0
+
+const tableName = 'gucci9_review'
 
 // GET：取得最新 10 条评论
 export async function GET() {
   try {
     const { data, error } = await supabase
-      .from('ipay9_review')
+      .from(tableName)
       .select('*')
       .order('created_at', { ascending: false })
       .limit(10)
@@ -29,18 +30,16 @@ export async function GET() {
   }
 }
 
-// POST：插入新评论（真实评论）
+// POST：新增评论
 export async function POST(req: Request) {
   try {
     const { name, casino_wallet, games, experiences, rating, others } = await req.json()
 
-    // 基础验证
     if (!name || !casino_wallet || !games || !experiences || !rating) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
     }
 
-    // 插入数据到表 ipay9_review
-    const { error } = await supabase.from('ipay9_review').insert([
+    const { error } = await supabase.from(tableName).insert([
       {
         name,
         casino_wallet,
