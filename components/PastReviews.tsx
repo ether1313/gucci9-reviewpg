@@ -339,7 +339,7 @@ const ReviewCard = ({ review, isMobile = false }: { review: Review; isMobile?: b
         <span className="text-xs text-white/60">Wallet:</span>
 
         <div className="flex items-center gap-1.5 sm:gap-2">
-          <img src="/australia-flag.png" alt="Flag" className="w-8 h-6 sm:w-6 sm:h-6" />
+          <img src="/australia-flag.png" alt="Flag" className="w-8 h-6 sm:w-8 sm:h-6" />
           <span
             className="text-[12px] sm:text-[14px] font-semibold 
             text-blue-100 bg-blue-900/30 px-2 py-0.5 rounded-full border border-blue-300/30"
