@@ -13,7 +13,7 @@ const HeroSection = () => {
       {/* 限制最大宽度 */}
       <div className="max-w-7xl mx-auto relative z-10">
         {/* 公司 Logo */}
-        <div className="relative w-48 h-24 sm:w-64 sm:h-28 mb-2 
+        <div className="relative w-48 h-14 sm:w-64 sm:h-20 mb-2 
             rounded-2xl flex items-center justify-center overflow-hidden mx-auto">
 
         <Image
