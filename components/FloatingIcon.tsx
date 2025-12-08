@@ -26,7 +26,7 @@ export default function FloatingIcon() {
         href="https://www.gucci9.vip/"
         target="_blank"
         rel="noopener noreferrer"
-        className="rounded-full transition-transform duration-200 hover:scale-110"
+        className="transition-transform duration-200 hover:scale-110"
       >
         <Image
           src="/playnow-floatingicon.gif"
