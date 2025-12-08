@@ -247,7 +247,7 @@ export default function PastReviews() {
             {reviews.slice(0, expandedIndex === -1 ? 10 : 5).map((review, index) => (
               <div key={review.id || index} id={`review-${index + 1}`} className="relative transition-all duration-500">
                 {index === 0 && (
-                  <span className="absolute -top-3 right-4 z-30 bg-gradient-to-r from-indigo-400 to-blue-500 text-white text-[11px] font-semibold px-3 py-1 rounded-full shadow-md animate-pulse">
+                  <span className="absolute -top-3 right-4 z-30 bg-gradient-to-r from-[#0E4738] to-[#D4AF37] text-white text-[11px] font-semibold px-3 py-1 rounded-full shadow-md animate-pulse">
                     Latest Review
                   </span>
                 )}
