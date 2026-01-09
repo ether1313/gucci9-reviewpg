@@ -24,7 +24,6 @@ const Authorize = () => {
                 bg-gradient-to-b from-[#121212]/95 via-[#171a24]/95 to-[#1d1f27]/98"
     >
 
-      {/* 內容 */}
       <div className="max-w-6xl mx-auto px-6 relative z-10 text-center">
         <motion.h2
             initial={{ opacity: 0, y: 40 }}
@@ -35,9 +34,7 @@ const Authorize = () => {
             <span className="block sm:inline">Officially Recognized by TPA</span>{' '}
         </motion.h2>
 
-        {/* 徽章 + 文字 */}
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-24 mt-2 px-4 lg:px-12">
-        {/* 動態徽章 */}
         <motion.div
             style={{ scale, y, opacity }}
             className="relative flex flex-col items-center origin-center flex-shrink-0"
@@ -51,11 +48,10 @@ const Authorize = () => {
             />
             </div>
             <p className="mt-2 text-xs sm:text-sm text-[#ecf3ff] font-medium text-center">
-            Trusted Pokies Australia · 2025 Certification
+            Trusted Pokies Australia · 2026 Certification
             </p>
         </motion.div>
 
-        {/* 描述文字 */}
         <motion.div
             initial={{ opacity: 0, x: 0 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -74,7 +70,6 @@ const Authorize = () => {
         </motion.div>
         </div>
 
-        {/* 信任提示 */}
         <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
