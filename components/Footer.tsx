@@ -18,7 +18,7 @@ const Footer = () => {
 
           <div className="border-t border-white/20 pt-3 flex justify-center">
             <p className="text-white/70 text-[12px] sm:text-[15px] font-['Orbitron'] tracking-wide">
-              © 2025 Gucci9 Trusted Online Casino Wallet
+              © 2026 Gucci9 Trusted Online Casino Wallet
             </p>
           </div>
 
